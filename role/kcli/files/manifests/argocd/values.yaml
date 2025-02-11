@@ -785,7 +785,7 @@ controller:
   # -- [DNS configuration]
   dnsConfig: {}
   # -- Alternative DNS policy for application controller pods
-  dnsPolicy: "ClusterFirstWithHostNet"
+  dnsPolicy: "ClusterFirst"
 
   # -- Application controller container-level security context
   # @default -- See [values.yaml]
@@ -1135,7 +1135,7 @@ dex:
   # -- [DNS configuration]
   dnsConfig: {}
   # -- Alternative DNS policy for Dex server pods
-  dnsPolicy: "ClusterFirstWithHostNet"
+  dnsPolicy: "ClusterFirst"
 
   # -- Dex container-level security context
   # @default -- See [values.yaml]
@@ -1459,7 +1459,7 @@ redis:
   # -- [DNS configuration]
   dnsConfig: {}
   # -- Alternative DNS policy for Redis server pods
-  dnsPolicy: "ClusterFirstWithHostNet"
+  dnsPolicy: "ClusterFirst"
 
   # -- Redis container-level security context
   # @default -- See [values.yaml]
@@ -1984,7 +1984,7 @@ server:
   # -- [DNS configuration]
   dnsConfig: {}
   # -- Alternative DNS policy for Server pods
-  dnsPolicy: "ClusterFirstWithHostNet"
+  dnsPolicy: "ClusterFirst"
 
   # -- Server container-level security context
   # @default -- See [values.yaml]
@@ -2725,7 +2725,7 @@ repoServer:
     # -- [DNS configuration]
   dnsConfig: {}
   # -- Alternative DNS policy for Repo server pods
-  dnsPolicy: "ClusterFirstWithHostNet"
+  dnsPolicy: "ClusterFirst"
 
   # -- Repo server container-level security context
   # @default -- See [values.yaml]
@@ -3103,7 +3103,7 @@ applicationSet:
   # -- [DNS configuration]
   dnsConfig: {}
   # -- Alternative DNS policy for ApplicationSet controller pods
-  dnsPolicy: "ClusterFirstWithHostNet"
+  dnsPolicy: "ClusterFirst"
 
   # -- ApplicationSet controller container-level security context
   # @default -- See [values.yaml]
@@ -3480,7 +3480,7 @@ notifications:
   # -- [DNS configuration]
   dnsConfig: {}
   # -- Alternative DNS policy for notifications controller Pods
-  dnsPolicy: "ClusterFirstWithHostNet"
+  dnsPolicy: "ClusterFirst"
 
   # -- Notification controller container-level security Context
   # @default -- See [values.yaml]
@@ -3958,7 +3958,7 @@ commitServer:
   # -- [DNS configuration]
   dnsConfig: {}
   # -- Alternative DNS policy for commit server pods
-  dnsPolicy: "ClusterFirstWithHostNet"
+  dnsPolicy: "ClusterFirst"
 
   # -- commit server container-level security context
   # @default -- See [values.yaml]
