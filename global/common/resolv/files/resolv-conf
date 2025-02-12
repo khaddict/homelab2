@@ -13,3 +13,5 @@ nameserver {{ ip }}
 
 {%- endfor %}
 {%- endif %}
+
+options timeout:2 attempts:1
